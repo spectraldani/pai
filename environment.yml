@@ -1,0 +1,20 @@
+name: ebmcgp
+channels:
+  - msys2
+  - pytorch
+  - gpytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.9=h60c2a47_0
+  - pip=21.3=pyhd8ed1ab_0
+  - numpy=1.19.2=py37hadc3359_0
+  - pytorch=1.7.1=py3.7_cpu_0
+  - cpuonly=2.0=0
+  - pystan=2.19.1.1=py37h9758500_2
+  - jupyterlab=3.0.6=pyhd8ed1ab_0
+  - matplotlib=3.4.3=py37h03978a9_1
+  - gpytorch=1.4.2=pyhd8ed1ab_0
+  - pip:
+    - botorch==0.4.0
+    - scikit-learn-extra==0.2.0
