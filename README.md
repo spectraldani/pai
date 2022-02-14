@@ -24,3 +24,18 @@ For Windows users, PyStan might no automatically choose the correct C++ compiler
    compiler=mingw32
    ```
 3. Done!
+
+# Reference
+
+de Souza DA, Mesquita D, Kaski S, Acerbi L (2022)  
+**Parallel MCMC Without Embarrassing Failures**  
+To appear in __International Conference on Artificial Intelligence and Statistics (AISTATS), 2022__.
+
+```bib
+@InProceedings{desouza2022parallel,
+  author    = {de Souza, Daniel Augusto and Mesquita, Diego and Kaski, Samuel and Acerbi, Luigi},
+  booktitle = {Proceedings of The 25th International Conference on Artificial Intelligence and Statistics},
+  title     = {Parallel {MCMC} Without Embarrassing Failures},
+  year      = {2022},
+}
+```
