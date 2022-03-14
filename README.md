@@ -1,6 +1,7 @@
-# Parallel Active Inference - (PAI)
+# Parallel Active Inference - PAI
 
-This repositiory contains the supplementary code for the paper "Parallel MCMC Without Embarrassing Failures" presented at AISTATS 2022.
+This repositiory contains the supplementary code for the paper "Parallel MCMC Without Embarrassing Failures" available at [ArXiv](https://arxiv.org/abs/2202.11154)
+and presented at AISTATS 2022.
 
 Currently, the repostory contain the necessary GP model, mean function, and acquistion function code in the `lib` directory. The `run_toy_4modes.ipynb` notebook contains a simple demonstration of the method on the dataset from the paper's section 4.1.
 
@@ -30,12 +31,16 @@ For Windows users, PyStan might no automatically choose the correct C++ compiler
 de Souza DA, Mesquita D, Kaski S, Acerbi L (2022)  
 **Parallel MCMC Without Embarrassing Failures**  
 To appear in __International Conference on Artificial Intelligence and Statistics (AISTATS), 2022__.
+[ArXiv:1811.11206](https://arxiv.org/abs/2202.11154)
 
 ```bib
 @InProceedings{desouza2022parallel,
-  author    = {de Souza, Daniel Augusto and Mesquita, Diego and Kaski, Samuel and Acerbi, Luigi},
-  booktitle = {Proceedings of The 25th International Conference on Artificial Intelligence and Statistics},
-  title     = {Parallel {MCMC} Without Embarrassing Failures},
-  year      = {2022},
+  author      = {de Souza, Daniel Augusto and Mesquita, Diego and Kaski, Samuel and Acerbi, Luigi},
+  booktitle   = {Proceedings of The 25th International Conference on Artificial Intelligence and Statistics},
+  title       = {Parallel {MCMC} Without Embarrassing Failures},
+  eprint      = {1811.11206},
+  eprintclass = {stat.ML},
+  eprinttype  = {arXiv},
+  year        = {2022},
 }
 ```
